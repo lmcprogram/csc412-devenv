@@ -1,9 +1,15 @@
+*~
+\#*#
+.\#*
+
+.DS_Store
+
 .vagrant/
 .vscode
 .gitconfig
 .bash_history
 home/
+
+_handin_to_gradescope.zip
 docker_build
 docker_run
-new_image
-.DS_Store

@@ -30,4 +30,5 @@ In the `home` folder in this project directory. :)
 ## Acknowledgements
 
 This setup is a modified version of the setup used by
-[Brown's CSCI 0300](https://cs.brown.edu/courses/csci0300/) and [Harvard's CS61](https://cs61.seas.harvard.edu/site/2021/).
+[Brown's CSCI 0300](https://cs.brown.edu/courses/csc412/) and [Harvard's CS61](https://cs61.seas.harvard.edu/site/2021/) and reused
+with permission.
