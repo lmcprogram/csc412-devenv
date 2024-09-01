@@ -1,12 +1,19 @@
 #! /bin/bash
 #set -x
 
+exiting () {
+    # create file and append run date
+    filename="docker_run"
+    now=$(date)
+    touch $filename
+}
+
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 maindir=""
 container_name=csc412-container
 network_name=csc412-network
-github_org=csc412
+github_org=uri-csc412
 default_user="csc412-user"  # Username to use by default
 
 image_name=csc412
